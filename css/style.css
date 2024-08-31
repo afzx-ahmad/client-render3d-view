@@ -1,0 +1,24 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+img {
+  background-position: center;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 100vw;
+  max-height: 100%;
+}
+
+.video {
+  width: 100vw;
+}
